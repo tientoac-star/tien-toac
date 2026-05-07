@@ -1,0 +1,18 @@
+BODY{
+    background-image: url(image/tiendz.jpg);
+    background-size: 70%;
+    background-repeat: repeat;
+    color: blue;
+    background-attachment: fixed;
+    background-position: 5cm 3cm;
+}
+H1{
+    background-color: navajowhite;
+    color: red;
+}
+h2{
+    color: #00FF00;
+}
+p{
+    background:red no-repeat url(image/t.png)
+}

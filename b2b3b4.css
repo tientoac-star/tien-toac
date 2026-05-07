@@ -1,0 +1,217 @@
+/* basic01 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eee;
+}
+
+.hero {
+    background: #eee;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    background: #7d8db3;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 42px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #1da1f2;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1da1f2;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* basic02 */
+.cta {
+    background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb") center/cover no-repeat;
+    height: 350px;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cta-content {
+    color: white;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.cta-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cta-content p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #ddd;
+}
+
+.cta-btn {
+    background: #e74c3c;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #c0392b;
+}
+
+@media (max-width: 600px) {
+    .cta {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .cta-content h2 {
+        font-size: 22px;
+    }
+}
+
+
+/* basic03 */
+.invite {
+    background: #eee;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.invite-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* icon tròn */
+.icon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #4db6ac;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    font-size: 24px;
+    color: #4db6ac;
+}
+
+/* title */
+.invite h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* text */
+.invite p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* form */
+.invite-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* input */
+.invite-form input {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ddd;
+    font-size: 14px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+/* button */
+.invite-form button {
+    background: #4db6ac;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 0 38% 0 38%;
+}
+
+.invite-form button:hover {
+    background: #399e96;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .invite h2 {
+        font-size: 24px;
+    }
+}
